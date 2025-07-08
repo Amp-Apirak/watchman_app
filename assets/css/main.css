@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+
+/* Custom CSS Variables */
+:root {
+  --color-primary: rgb(59 130 246);
+  --color-secondary: rgb(71 85 105);
+}
+
+/* Custom Styles */
+.custom-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+}
+
+/* Responsive breakpoints */
+@media (max-width: 640px) {
+  .mobile-hidden {
+    display: none;
+  }
+}

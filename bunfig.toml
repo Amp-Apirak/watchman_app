@@ -1,0 +1,17 @@
+[install]
+# Auto install peer dependencies
+auto = true
+
+# Use exact versions
+exact = true
+
+# Registry configuration
+registry = "https://registry.npmjs.org/"
+
+[run]
+# Enable hot reload
+hot = true
+
+[build]
+# Enable minification
+minify = true

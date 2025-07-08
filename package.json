@@ -1,0 +1,25 @@
+{
+  "name": "watchman-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run nuxt build",
+    "dev": "bun run nuxt dev",
+    "generate": "bun run nuxt generate",
+    "preview": "bun run nuxt preview",
+    "postinstall": "bun run nuxt prepare",
+    "typecheck": "bun run nuxt typecheck",
+    "lint": "bun run eslint .",
+    "lint:fix": "bun run eslint . --fix"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.18",
+    "@nuxt/ui-pro": "^3.0.0",
+    "nuxt": "^3.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.10"
+  }
+}
+  
